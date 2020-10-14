@@ -15,7 +15,7 @@
 競技プログラミングでは適切なデータ構造を用いることが重要である．
 
 - 配列 作成中
-- [スタック](https://github.com/kobe-pablo/wiki/tree/main/docs/competitive_programming/stack.md)
+- [スタック](https://github.com/kobe-pablo/wiki/blob/main/docs/competitive_programming/algorithms/stack.md)
 - キュー　作成中
 - 集合　作成中
 - 連想配列　作成中
