@@ -4,6 +4,16 @@ https://github.com/anyenv/anyenv
 ## anyenvとは
 anyenvとは、実行環境のバージョンを管理するツール郡を、一元管理するツールである。
 
+### いいところ
+**envのいいところ
+- プロジェクトごとに処理系のバージョンを切り替えることが出来る。
+- 使用しているバージョンの情報をコード管理出来る。
+
+anyenvのいいところ
+- 言語のインストールが簡単
+- パスをanyenvに通すだけで良い(**envをたくさん導入していくとパスが通らない問題が発生するらしい)
+- **envをまとめて管理できる
+
 ## anyenv導入後のツール群のイメージ
 ```
 homebrew
@@ -20,7 +30,8 @@ homebrew
 ```
 
 ## インストール
-すでに`pyenv`や`nodenv/nodeenv/nodebrew`など入れてる人は削除する。
+PCに直接インストールしているpythonやnodeはがんばって削除すると良い。  
+すでに`pyenv`や`nodenv/nodeenv/ndenv/nodebrew`や`rbenv`など入れてる場合それらも削除すると良い。
 
 ```bash
 # Homebrewにインストール
